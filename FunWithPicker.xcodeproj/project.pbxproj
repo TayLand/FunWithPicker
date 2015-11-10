@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB26BDB1BF16577000D7547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26BDA1BF16577000D7547 /* AppDelegate.swift */; };
+		4BB26BDD1BF16577000D7547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26BDC1BF16577000D7547 /* ViewController.swift */; };
+		4BB26BE01BF16578000D7547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26BDE1BF16578000D7547 /* Main.storyboard */; };
+		4BB26BE21BF16578000D7547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26BE11BF16578000D7547 /* Assets.xcassets */; };
+		4BB26BE51BF16578000D7547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26BE31BF16578000D7547 /* LaunchScreen.storyboard */; };
+		4BB26BF01BF16578000D7547 /* FunWithPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26BEF1BF16578000D7547 /* FunWithPickerTests.swift */; };
+		4BB26BFB1BF16578000D7547 /* FunWithPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26BFA1BF16578000D7547 /* FunWithPickerUITests.swift */; };
+		4BB26C001BF16578000D7547 /* FunWithPicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4BB26BFF1BF16578000D7547 /* FunWithPicker WatchKit App.app */; };
+		4BB26C061BF16578000D7547 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26C041BF16578000D7547 /* Interface.storyboard */; };
+		4BB26C081BF16578000D7547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26C071BF16578000D7547 /* Assets.xcassets */; };
+		4BB26C0F1BF16578000D7547 /* FunWithPicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4BB26C0E1BF16578000D7547 /* FunWithPicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4BB26C161BF16578000D7547 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26C151BF16578000D7547 /* InterfaceController.swift */; };
+		4BB26C181BF16578000D7547 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26C171BF16578000D7547 /* ExtensionDelegate.swift */; };
+		4BB26C1A1BF16578000D7547 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB26C191BF16578000D7547 /* NotificationController.swift */; };
+		4BB26C1C1BF16578000D7547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26C1B1BF16578000D7547 /* Assets.xcassets */; };
+		4BB26C331BF19932000D7547 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26C321BF19932000D7547 /* Raleway-Regular.ttf */; };
+		4BB26C341BF19932000D7547 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BB26C321BF19932000D7547 /* Raleway-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BB26BEC1BF16578000D7547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB26BCF1BF16577000D7547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB26BD61BF16577000D7547;
+			remoteInfo = FunWithPicker;
+		};
+		4BB26BF71BF16578000D7547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB26BCF1BF16577000D7547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB26BD61BF16577000D7547;
+			remoteInfo = FunWithPicker;
+		};
+		4BB26C011BF16578000D7547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB26BCF1BF16577000D7547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB26BFE1BF16578000D7547;
+			remoteInfo = "FunWithPicker WatchKit App";
+		};
+		4BB26C101BF16578000D7547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BB26BCF1BF16577000D7547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BB26C0D1BF16578000D7547;
+			remoteInfo = "FunWithPicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4BB26C231BF16578000D7547 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4BB26C0F1BF16578000D7547 /* FunWithPicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26C271BF16578000D7547 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4BB26C001BF16578000D7547 /* FunWithPicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4BB26BD71BF16577000D7547 /* FunWithPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB26BDA1BF16577000D7547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BB26BDC1BF16577000D7547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BB26BDF1BF16578000D7547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BB26BE11BF16578000D7547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB26BE41BF16578000D7547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BB26BE61BF16578000D7547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB26BEB1BF16578000D7547 /* FunWithPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunWithPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB26BEF1BF16578000D7547 /* FunWithPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWithPickerTests.swift; sourceTree = "<group>"; };
+		4BB26BF11BF16578000D7547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB26BF61BF16578000D7547 /* FunWithPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunWithPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB26BFA1BF16578000D7547 /* FunWithPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWithPickerUITests.swift; sourceTree = "<group>"; };
+		4BB26BFC1BF16578000D7547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB26BFF1BF16578000D7547 /* FunWithPicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FunWithPicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB26C051BF16578000D7547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4BB26C071BF16578000D7547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB26C091BF16578000D7547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB26C0E1BF16578000D7547 /* FunWithPicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FunWithPicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB26C141BF16578000D7547 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4BB26C151BF16578000D7547 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4BB26C171BF16578000D7547 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4BB26C191BF16578000D7547 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4BB26C1B1BF16578000D7547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BB26C1D1BF16578000D7547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BB26C321BF19932000D7547 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB26BD41BF16577000D7547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BE81BF16578000D7547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BF31BF16578000D7547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26C0B1BF16578000D7547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB26BCE1BF16577000D7547 = {
+			isa = PBXGroup;
+			children = (
+				4BB26BD91BF16577000D7547 /* FunWithPicker */,
+				4BB26BEE1BF16578000D7547 /* FunWithPickerTests */,
+				4BB26BF91BF16578000D7547 /* FunWithPickerUITests */,
+				4BB26C031BF16578000D7547 /* FunWithPicker WatchKit App */,
+				4BB26C121BF16578000D7547 /* FunWithPicker WatchKit Extension */,
+				4BB26BD81BF16577000D7547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB26BD81BF16577000D7547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26BD71BF16577000D7547 /* FunWithPicker.app */,
+				4BB26BEB1BF16578000D7547 /* FunWithPickerTests.xctest */,
+				4BB26BF61BF16578000D7547 /* FunWithPickerUITests.xctest */,
+				4BB26BFF1BF16578000D7547 /* FunWithPicker WatchKit App.app */,
+				4BB26C0E1BF16578000D7547 /* FunWithPicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB26BD91BF16577000D7547 /* FunWithPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26BDA1BF16577000D7547 /* AppDelegate.swift */,
+				4BB26BDC1BF16577000D7547 /* ViewController.swift */,
+				4BB26BDE1BF16578000D7547 /* Main.storyboard */,
+				4BB26BE11BF16578000D7547 /* Assets.xcassets */,
+				4BB26BE31BF16578000D7547 /* LaunchScreen.storyboard */,
+				4BB26BE61BF16578000D7547 /* Info.plist */,
+			);
+			path = FunWithPicker;
+			sourceTree = "<group>";
+		};
+		4BB26BEE1BF16578000D7547 /* FunWithPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26BEF1BF16578000D7547 /* FunWithPickerTests.swift */,
+				4BB26BF11BF16578000D7547 /* Info.plist */,
+			);
+			path = FunWithPickerTests;
+			sourceTree = "<group>";
+		};
+		4BB26BF91BF16578000D7547 /* FunWithPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26BFA1BF16578000D7547 /* FunWithPickerUITests.swift */,
+				4BB26BFC1BF16578000D7547 /* Info.plist */,
+			);
+			path = FunWithPickerUITests;
+			sourceTree = "<group>";
+		};
+		4BB26C031BF16578000D7547 /* FunWithPicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26C321BF19932000D7547 /* Raleway-Regular.ttf */,
+				4BB26C041BF16578000D7547 /* Interface.storyboard */,
+				4BB26C071BF16578000D7547 /* Assets.xcassets */,
+				4BB26C091BF16578000D7547 /* Info.plist */,
+			);
+			path = "FunWithPicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		4BB26C121BF16578000D7547 /* FunWithPicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26C151BF16578000D7547 /* InterfaceController.swift */,
+				4BB26C171BF16578000D7547 /* ExtensionDelegate.swift */,
+				4BB26C191BF16578000D7547 /* NotificationController.swift */,
+				4BB26C1B1BF16578000D7547 /* Assets.xcassets */,
+				4BB26C1D1BF16578000D7547 /* Info.plist */,
+				4BB26C131BF16578000D7547 /* Supporting Files */,
+			);
+			path = "FunWithPicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4BB26C131BF16578000D7547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB26C141BF16578000D7547 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB26BD61BF16577000D7547 /* FunWithPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB26C281BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPicker" */;
+			buildPhases = (
+				4BB26BD31BF16577000D7547 /* Sources */,
+				4BB26BD41BF16577000D7547 /* Frameworks */,
+				4BB26BD51BF16577000D7547 /* Resources */,
+				4BB26C271BF16578000D7547 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB26C021BF16578000D7547 /* PBXTargetDependency */,
+			);
+			name = FunWithPicker;
+			productName = FunWithPicker;
+			productReference = 4BB26BD71BF16577000D7547 /* FunWithPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BB26BEA1BF16578000D7547 /* FunWithPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB26C2B1BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPickerTests" */;
+			buildPhases = (
+				4BB26BE71BF16578000D7547 /* Sources */,
+				4BB26BE81BF16578000D7547 /* Frameworks */,
+				4BB26BE91BF16578000D7547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB26BED1BF16578000D7547 /* PBXTargetDependency */,
+			);
+			name = FunWithPickerTests;
+			productName = FunWithPickerTests;
+			productReference = 4BB26BEB1BF16578000D7547 /* FunWithPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BB26BF51BF16578000D7547 /* FunWithPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB26C2E1BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPickerUITests" */;
+			buildPhases = (
+				4BB26BF21BF16578000D7547 /* Sources */,
+				4BB26BF31BF16578000D7547 /* Frameworks */,
+				4BB26BF41BF16578000D7547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB26BF81BF16578000D7547 /* PBXTargetDependency */,
+			);
+			name = FunWithPickerUITests;
+			productName = FunWithPickerUITests;
+			productReference = 4BB26BF61BF16578000D7547 /* FunWithPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4BB26BFE1BF16578000D7547 /* FunWithPicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB26C241BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit App" */;
+			buildPhases = (
+				4BB26BFD1BF16578000D7547 /* Resources */,
+				4BB26C231BF16578000D7547 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB26C111BF16578000D7547 /* PBXTargetDependency */,
+			);
+			name = "FunWithPicker WatchKit App";
+			productName = "FunWithPicker WatchKit App";
+			productReference = 4BB26BFF1BF16578000D7547 /* FunWithPicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4BB26C0D1BF16578000D7547 /* FunWithPicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB26C201BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit Extension" */;
+			buildPhases = (
+				4BB26C0A1BF16578000D7547 /* Sources */,
+				4BB26C0B1BF16578000D7547 /* Frameworks */,
+				4BB26C0C1BF16578000D7547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunWithPicker WatchKit Extension";
+			productName = "FunWithPicker WatchKit Extension";
+			productReference = 4BB26C0E1BF16578000D7547 /* FunWithPicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB26BCF1BF16577000D7547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = CIS;
+				TargetAttributes = {
+					4BB26BD61BF16577000D7547 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4BB26BEA1BF16578000D7547 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4BB26BD61BF16577000D7547;
+					};
+					4BB26BF51BF16578000D7547 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4BB26BD61BF16577000D7547;
+					};
+					4BB26BFE1BF16578000D7547 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4BB26C0D1BF16578000D7547 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BB26BD21BF16577000D7547 /* Build configuration list for PBXProject "FunWithPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BB26BCE1BF16577000D7547;
+			productRefGroup = 4BB26BD81BF16577000D7547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB26BD61BF16577000D7547 /* FunWithPicker */,
+				4BB26BEA1BF16578000D7547 /* FunWithPickerTests */,
+				4BB26BF51BF16578000D7547 /* FunWithPickerUITests */,
+				4BB26BFE1BF16578000D7547 /* FunWithPicker WatchKit App */,
+				4BB26C0D1BF16578000D7547 /* FunWithPicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB26BD51BF16577000D7547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26BE51BF16578000D7547 /* LaunchScreen.storyboard in Resources */,
+				4BB26BE21BF16578000D7547 /* Assets.xcassets in Resources */,
+				4BB26BE01BF16578000D7547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BE91BF16578000D7547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BF41BF16578000D7547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BFD1BF16578000D7547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26C081BF16578000D7547 /* Assets.xcassets in Resources */,
+				4BB26C331BF19932000D7547 /* Raleway-Regular.ttf in Resources */,
+				4BB26C061BF16578000D7547 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26C0C1BF16578000D7547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26C1C1BF16578000D7547 /* Assets.xcassets in Resources */,
+				4BB26C341BF19932000D7547 /* Raleway-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB26BD31BF16577000D7547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26BDD1BF16577000D7547 /* ViewController.swift in Sources */,
+				4BB26BDB1BF16577000D7547 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BE71BF16578000D7547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26BF01BF16578000D7547 /* FunWithPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26BF21BF16578000D7547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26BFB1BF16578000D7547 /* FunWithPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BB26C0A1BF16578000D7547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB26C1A1BF16578000D7547 /* NotificationController.swift in Sources */,
+				4BB26C181BF16578000D7547 /* ExtensionDelegate.swift in Sources */,
+				4BB26C161BF16578000D7547 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB26BED1BF16578000D7547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB26BD61BF16577000D7547 /* FunWithPicker */;
+			targetProxy = 4BB26BEC1BF16578000D7547 /* PBXContainerItemProxy */;
+		};
+		4BB26BF81BF16578000D7547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB26BD61BF16577000D7547 /* FunWithPicker */;
+			targetProxy = 4BB26BF71BF16578000D7547 /* PBXContainerItemProxy */;
+		};
+		4BB26C021BF16578000D7547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB26BFE1BF16578000D7547 /* FunWithPicker WatchKit App */;
+			targetProxy = 4BB26C011BF16578000D7547 /* PBXContainerItemProxy */;
+		};
+		4BB26C111BF16578000D7547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BB26C0D1BF16578000D7547 /* FunWithPicker WatchKit Extension */;
+			targetProxy = 4BB26C101BF16578000D7547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BB26BDE1BF16578000D7547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB26BDF1BF16578000D7547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BB26BE31BF16578000D7547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB26BE41BF16578000D7547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4BB26C041BF16578000D7547 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BB26C051BF16578000D7547 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BB26C1E1BF16578000D7547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BB26C1F1BF16578000D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB26C211BF16578000D7547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FunWithPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4BB26C221BF16578000D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FunWithPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4BB26C251BF16578000D7547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FunWithPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "FunWithPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4BB26C261BF16578000D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = FunWithPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "FunWithPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4BB26C291BF16578000D7547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunWithPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BB26C2A1BF16578000D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunWithPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4BB26C2C1BF16578000D7547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunWithPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunWithPicker.app/FunWithPicker";
+			};
+			name = Debug;
+		};
+		4BB26C2D1BF16578000D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FunWithPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunWithPicker.app/FunWithPicker";
+			};
+			name = Release;
+		};
+		4BB26C2F1BF16578000D7547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunWithPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FunWithPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4BB26C301BF16578000D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunWithPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tlandes.FunWithPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FunWithPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB26BD21BF16577000D7547 /* Build configuration list for PBXProject "FunWithPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB26C1E1BF16578000D7547 /* Debug */,
+				4BB26C1F1BF16578000D7547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB26C201BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB26C211BF16578000D7547 /* Debug */,
+				4BB26C221BF16578000D7547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB26C241BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB26C251BF16578000D7547 /* Debug */,
+				4BB26C261BF16578000D7547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB26C281BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB26C291BF16578000D7547 /* Debug */,
+				4BB26C2A1BF16578000D7547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB26C2B1BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB26C2C1BF16578000D7547 /* Debug */,
+				4BB26C2D1BF16578000D7547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4BB26C2E1BF16578000D7547 /* Build configuration list for PBXNativeTarget "FunWithPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB26C2F1BF16578000D7547 /* Debug */,
+				4BB26C301BF16578000D7547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BB26BCF1BF16577000D7547 /* Project object */;
+}
